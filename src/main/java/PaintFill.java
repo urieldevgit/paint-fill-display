@@ -1,6 +1,6 @@
 public class PaintFill {
-    static final int rows = 4;
-    static final int columns = 4;
+    private static final int rows = 4;
+    private static final int columns = 4;
 
     void changeOldColorWithNewOne (int [][] display,int oldColor,int newColor,int x, int y) {
         //establish base case when limit is reached or when position has different color
@@ -20,7 +20,7 @@ public class PaintFill {
     }
 
     //main just to can look what I'm doing
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
 
         PaintFill  paintFill = new PaintFill();
 
@@ -30,7 +30,7 @@ public class PaintFill {
                       {8, 0, 0, 8},
                       {8, 0, 0, 8}};
 
-        /*int display[][] = {
+        *//*int display[][] = {
                 {8, 8, 8, 8, 8, 8, 8, 8},
                 {8, 0, 0, 4, 0, 0, 0, 8},
                 {8, 0, 0, 4, 0, 0, 0, 8},
@@ -39,7 +39,7 @@ public class PaintFill {
                 {8, 0, 0, 4, 0, 0, 0, 8},
                 {8, 0, 0, 0, 0, 0, 0, 8},
                 {8, 0, 0, 0, 0, 0, 0, 8},
-        };*/
+        };*//*
 
 
         //Getting the oldColor
@@ -56,5 +56,5 @@ public class PaintFill {
             }
             System.out.println();
         }
-    }
+    }*/
 }

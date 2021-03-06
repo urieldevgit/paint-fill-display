@@ -1,10 +1,11 @@
 public class PaintFill {
+
     private static final int rows = 4;
     private static final int columns = 4;
 
-    void changeOldColorWithNewOne (int [][] display,int oldColor,int newColor,int x, int y) {
+    void changeOldColorWithNewOne (int [][] display, int oldColor, int newColor, int x, int y) {
         //establish base case when limit is reached or when position has different color
-        if(y>rows-1||y<0||x>columns||x<0||display[x][y]!=oldColor) {
+        if (y>rows-1||y<0||x>columns||x<0||display[x][y]!=oldColor) {
             return;
         }
         //changing color from the new one
